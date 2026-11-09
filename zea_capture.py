@@ -671,7 +671,10 @@ def act_collect(hosts, args):
        print("  (--list for the full table)")
    if got:
        print()
-       print("  next: zea_merge.py %s/*_zea-test.pcap --coverage" % outdir)
+       print("  next: python3 zea_merge.py %s/*_zea-test.pcap --csv "
+             "%s/%s_test.csv"
+             % (outdir, os.path.dirname(os.path.abspath(__file__)),
+                args.capture_date))
    return 0 if got else 1
 
 def act_clean(hosts, args):
@@ -795,8 +798,9 @@ def main():
                    help="tcpdump -s value; 0 = full frame (default)")
    ap.add_argument("--maxfiles", type=int, default=1,
                    help="reserved for -W rotation")
-   ap.add_argument("--outdir", default="/home/minetec/zea-pcaps",
-                   help="local directory for collected pcaps")
+   ap.add_argument("--outdir",
+                   help="directory for collected pcaps (default: "
+                        "<script directory>/<run date>)")
    ap.add_argument("--no-compress", action="store_true",
                    help="do not gzip on the bridge before transfer")
    ap.add_argument("--workers", type=int, default=16,
@@ -807,6 +811,10 @@ def main():
                    help="extra seconds to wait after duration before "
                         "collecting (default 10)")
    args = ap.parse_args()
+   args.capture_date = time.strftime("%Y%m%d", time.localtime())
+   if args.outdir is None:
+       args.outdir = os.path.join(
+           os.path.dirname(os.path.abspath(__file__)), args.capture_date)
    for tool in ("sshpass", "ssh"):
        if subprocess.call(["sh", "-c", "command -v %s >/dev/null" % tool]):
            sys.stderr.write(

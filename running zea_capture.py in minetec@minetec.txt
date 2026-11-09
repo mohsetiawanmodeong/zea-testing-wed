@@ -1,0 +1,1223 @@
+minetec@minetec:~/ZEA-TESTING-WED$ python3 zea_capture.py run --leases --duration 100
+---- PREFLIGHT ---------------------------------------------------------------
+  BRIDGE         TCPDUMP  IFACE  /tmp MB  SKEW(s)  STATUS       NOTE
+  -------------  -------  -----  -------  -------  -----------  ----------------------------
+  172.16.40.1    yes      yes       57.9       +1  OK
+  172.16.40.2    yes      yes       58.8       +1  OK
+  172.16.40.3    yes      yes       57.2       +1  OK
+  172.16.40.4    yes      yes       53.0       +1  OK
+  172.16.40.5    yes      yes       58.9       +8  WARN         clock +8s
+  172.16.40.6    yes      yes       24.4       +1  OK
+  172.16.40.7    yes      yes       29.7       +1  OK
+  172.16.40.8    yes      yes       58.5       +1  OK
+  172.16.40.9    yes      yes       59.2       +0  OK
+  172.16.40.10   yes      yes       23.7       +1  OK
+  172.16.40.11   yes      yes       56.3       +1  OK
+  172.16.40.12   yes      yes       29.5       +2  OK
+  172.16.40.13   yes      yes       58.0       +1  OK
+  172.16.40.14   yes      yes       60.4       +1  OK
+  172.16.40.15   yes      yes       25.2       +1  OK
+  172.16.40.16   yes      yes       57.7       +1  OK
+  172.16.40.17   yes      yes       26.7       +1  OK
+  172.16.40.18   yes      yes       59.0       +1  OK
+  172.16.40.19   yes      yes       55.5       +1  OK
+  172.16.40.20   yes      yes       58.3       +1  OK
+  172.16.40.21   yes      yes       61.1       +2  OK
+  172.16.40.22   yes      yes       56.4       +1  OK
+  172.16.40.23   yes      yes       25.8       +1  OK
+  172.16.40.24   yes      yes       59.2       +1  OK
+  172.16.40.25   yes      yes       24.9       +1  OK
+  172.16.40.26   -        -            -        -  UNREACHABLE  ssh: connect to host 172.16.
+  172.16.40.27   yes      yes       55.4       +1  OK
+  172.16.40.28   yes      yes       56.8       +1  OK
+  172.16.40.29   yes      yes       24.4       +2  OK
+  172.16.40.30   yes      yes       57.0       +2  OK
+  172.16.40.31   yes      yes       27.2       +1  OK
+  172.16.40.32   yes      yes       25.0       +1  OK
+  172.16.40.33   yes      yes       59.2       +1  OK
+  172.16.40.34   yes      yes       55.9       +1  OK
+  172.16.40.35   yes      yes       58.2       +2  OK
+  172.16.40.36   yes      yes       52.7       +2  OK
+  172.16.40.37   yes      yes       55.4       +2  OK
+  172.16.40.38   yes      yes       58.0       +2  OK
+  172.16.40.39   yes      yes       24.6       +2  OK
+  172.16.40.40   yes      yes       26.5       +2  OK
+  172.16.40.41   yes      yes       56.8       +2  OK
+  172.16.40.42   yes      yes       56.0       +2  OK
+  172.16.40.43   yes      yes       26.1       +3  OK
+  172.16.40.44   yes      yes       26.9       +2  OK
+  172.16.40.45   yes      yes       57.4       +2  OK
+  172.16.40.46   yes      yes       55.4       +2  OK
+  172.16.40.47   yes      yes       24.4       +2  OK
+  172.16.40.48   yes      yes       58.0       +2  OK
+  172.16.40.49   yes      yes       22.3       +2  OK
+  172.16.40.50   yes      yes       57.9       +2  OK
+  172.16.40.51   yes      yes       27.2       +2  OK
+  172.16.40.52   yes      yes       24.0       +2  OK
+  172.16.40.53   yes      yes       59.0       +2  OK
+  172.16.40.54   yes      yes       58.6       +2  OK
+  172.16.40.55   yes      yes       27.3       +2  OK
+  172.16.40.56   yes      yes       22.6       +2  OK
+  172.16.40.57   yes      yes       57.5       +2  OK
+  172.16.40.58   yes      yes       29.4       +3  OK
+  172.16.40.59   yes      yes       24.0       +2  OK
+  172.16.40.60   yes      yes       57.9       +2  OK
+  172.16.40.61   yes      yes       55.6       +3  OK
+  172.16.40.62   yes      yes       24.8       +2  OK
+  172.16.40.63   yes      yes       57.4       +3  OK
+  172.16.40.64   yes      yes       58.2       +3  OK
+  172.16.40.65   yes      yes       56.9       +3  OK
+  172.16.40.66   yes      yes       57.8       +3  OK
+  172.16.40.67   yes      yes       29.7       +3  OK
+  172.16.40.68   yes      yes       56.3       +3  OK
+  172.16.40.69   yes      yes       58.9       +3  OK
+  172.16.40.70   yes      yes       58.2       +3  OK
+  172.16.40.71   yes      yes       57.0       +3  OK
+  172.16.40.72   yes      yes       26.6       +3  OK
+  172.16.40.73   yes      yes       25.4       +3  OK
+  172.16.40.74   yes      yes       58.6       +3  OK
+  172.16.40.75   yes      yes       54.7       +3  OK
+  172.16.40.76   yes      yes       57.9       +3  OK
+  172.16.40.77   yes      yes       24.5       +3  OK
+  172.16.40.78   yes      yes       14.0       +3  OK
+  172.16.40.79   yes      yes       25.1       +3  OK
+  172.16.40.80   yes      yes       59.2       +3  OK
+  172.16.40.81   yes      yes       58.6       +3  OK
+  172.16.40.82   yes      yes       56.5       +3  OK
+  172.16.40.83   yes      yes       58.0       +3  OK
+  172.16.40.84   yes      yes       25.0       +3  OK
+  172.16.40.85   yes      yes       58.7       +3  OK
+  172.16.40.86   yes      yes       25.1       +3  OK
+  172.16.40.87   yes      yes       58.3       +3  OK
+  172.16.40.88   yes      yes       57.9       +3  OK
+  172.16.40.89   yes      yes       59.0       +3  OK
+  172.16.40.90   yes      yes       29.5       +4  OK
+  172.16.40.91   yes      yes       56.8       +4  OK
+  172.16.40.92   yes      yes       55.3       +4  OK
+  172.16.40.93   yes      yes       57.5       +3  OK
+  172.16.40.94   yes      yes       23.9       +4  OK
+  172.16.40.95   yes      yes       54.4       +4  OK
+  172.16.40.96   yes      yes       22.2       +3  OK
+  172.16.40.97   yes      yes       56.5       +4  OK
+  172.16.40.98   yes      yes       58.0       +4  OK
+  172.16.40.99   yes      yes       58.7       +4  OK
+  172.16.40.100  yes      yes       26.1       +4  OK
+  172.16.40.101  yes      yes       29.7       +4  OK
+  172.16.40.102  yes      yes       55.6       +4  OK
+  172.16.40.103  yes      yes       56.3       +4  OK
+  172.16.40.104  yes      yes       56.3       +4  OK
+  172.16.40.105  yes      yes       58.1       +5  OK
+  172.16.40.106  yes      yes       24.3       +5  OK
+  172.16.40.107  yes      yes       25.2       +4  OK
+  172.16.40.108  yes      yes       56.3       +4  OK
+  172.16.40.109  yes      yes       56.0       +4  OK
+  172.16.40.110  yes      yes       59.2       +4  OK
+  172.16.40.111  yes      yes       26.6       +4  OK
+  172.16.40.112  yes      yes       57.6       +4  OK
+  172.16.40.113  yes      yes       29.5       +5  OK
+  172.16.40.114  yes      yes       57.7       +4  OK
+  172.16.40.115  yes      yes       24.7       +4  OK
+  172.16.40.116  yes      yes       57.6       +4  OK
+  172.16.40.117  yes      yes       20.3       +4  OK
+  172.16.40.118  yes      yes       25.8       +5  OK
+  172.16.40.119  yes      yes       24.6       +4  OK
+  172.16.40.120  yes      yes       29.7       +5  OK
+  172.16.40.121  yes      yes       56.9       +5  OK
+  172.16.40.122  yes      yes       25.0       +5  OK
+  172.16.40.123  yes      yes       55.6       +4  OK
+  172.16.40.124  yes      yes       29.7       +5  OK
+  172.16.40.125  -        -            -        -  UNREACHABLE  Connection timed out during
+  172.16.40.126  yes      yes       55.8       +5  OK
+  172.16.40.127  yes      yes       57.8       +5  OK
+  172.16.40.128  yes      yes       59.0       +5  OK
+  172.16.40.129  yes      yes        0.0       +5  FAIL         /tmp 0.0MB
+  172.16.40.130  yes      yes       57.9       +5  OK
+  172.16.40.131  yes      yes       29.7       +5  OK
+  172.16.40.132  yes      yes       58.6       +5  OK
+  172.16.40.133  yes      yes       55.8       +5  OK
+  172.16.40.134  yes      yes       23.1       +5  OK
+  172.16.40.135  yes      yes       58.2       +5  OK
+  172.16.40.136  yes      yes       56.2       +5  OK
+  172.16.40.137  yes      yes       58.6       +5  OK
+  172.16.40.138  yes      yes       25.8       +6  WARN         clock +6s
+  172.16.40.139  yes      yes       57.4       +5  OK
+  172.16.40.140  yes      yes       58.0       +5  OK
+  172.16.40.141  yes      yes       55.7       +6  WARN         clock +6s
+  172.16.40.142  yes      yes       20.7       +5  OK
+  172.16.40.143  yes      yes       56.2       +5  OK
+  172.16.40.144  yes      yes       56.5       +5  OK
+  172.16.40.145  yes      yes       29.6       +6  WARN         clock +6s
+  172.16.40.146  yes      yes       24.4       +6  WARN         clock +6s
+  172.16.40.147  yes      yes        0.0       +6  FAIL         /tmp 0.0MB
+  172.16.40.148  yes      yes       57.0       +5  OK
+  172.16.40.149  yes      yes       43.9       +5  OK
+  172.16.40.150  yes      yes       59.0       +5  OK
+  172.16.40.151  yes      yes       55.1       +6  WARN         clock +6s
+  172.16.40.152  yes      yes       56.6       +6  WARN         clock +6s
+  172.16.40.153  yes      yes       24.2       +6  WARN         clock +6s
+  172.16.40.154  yes      yes       58.9       +6  WARN         clock +6s
+  172.16.40.155  yes      yes       58.1       +6  WARN         clock +6s
+  172.16.40.156  yes      yes       56.8       +6  WARN         clock +6s
+  172.16.40.157  yes      yes       58.1       +6  WARN         clock +6s
+  172.16.40.158  yes      yes       50.1       +6  WARN         clock +6s
+  172.16.40.159  yes      yes       26.0       +6  WARN         clock +6s
+  172.16.40.160  yes      yes       57.3       +6  WARN         clock +6s
+  172.16.40.161  yes      yes       22.9       +6  WARN         clock +6s
+  172.16.40.162  yes      yes       47.6       +6  WARN         clock +6s
+  172.16.40.163  yes      yes       25.6       +6  WARN         clock +6s
+  172.16.40.164  yes      yes       58.7       +6  WARN         clock +6s
+  172.16.40.165  yes      yes       59.2       +6  WARN         clock +6s
+  172.16.40.166  yes      yes       24.2       +6  WARN         clock +6s
+  172.16.40.167  yes      yes       58.1       +6  WARN         clock +6s
+  172.16.40.168  yes      yes       26.2       +6  WARN         clock +6s
+  172.16.40.169  yes      yes       58.0       +7  WARN         clock +7s
+  172.16.40.170  yes      yes       57.4       +6  WARN         clock +6s
+  172.16.40.171  yes      yes       57.5       +6  WARN         clock +6s
+  172.16.40.172  yes      yes       58.0       +6  WARN         clock +6s
+  172.16.40.173  yes      yes       59.0       +6  WARN         clock +6s
+  172.16.40.174  yes      yes       56.2       +6  WARN         clock +6s
+  172.16.40.175  yes      yes       57.7       +7  WARN         clock +7s
+  172.16.40.176  yes      yes       26.1       +6  WARN         clock +6s
+  172.16.40.177  yes      yes       57.9       +6  WARN         clock +6s
+  172.16.40.178  yes      yes       57.6       +6  WARN         clock +6s
+  172.16.40.179  -        -            -        -  UNREACHABLE  ssh: connect to host 172.16.
+  172.16.40.180  yes      yes       58.2       +6  WARN         clock +6s
+  172.16.40.181  yes      yes       29.6       +7  WARN         clock +7s
+  172.16.40.182  yes      yes       56.1       +7  WARN         clock +7s
+  172.16.40.183  yes      yes       24.6       +7  WARN         clock +7s
+  172.16.40.184  yes      yes       52.3       +7  WARN         clock +7s
+  172.16.40.185  yes      yes       58.7       +7  WARN         clock +7s
+  172.16.40.186  yes      yes       56.7       +7  WARN         clock +7s
+  172.16.40.187  yes      yes       29.7       +7  WARN         clock +7s
+  172.16.40.188  yes      yes       57.2       +7  WARN         clock +7s
+  172.16.40.189  yes      yes       53.2       +7  WARN         clock +7s
+  172.16.40.190  yes      yes       22.6       +7  WARN         clock +7s
+  172.16.40.191  yes      yes       57.7       +7  WARN         clock +7s
+  172.16.40.192  yes      yes       58.0       +7  WARN         clock +7s
+  172.16.40.193  yes      yes        6.6       +7  WARN         clock +7s
+  172.16.40.194  yes      yes       23.9       +7  WARN         clock +7s
+  172.16.40.195  yes      yes       23.3       +7  WARN         clock +7s
+  172.16.40.196  yes      yes       55.5       +7  WARN         clock +7s
+  172.16.40.197  yes      yes       24.2       +7  WARN         clock +7s
+  172.16.40.198  yes      yes       56.1       +7  WARN         clock +7s
+  172.16.40.199  yes      yes       58.6       +7  WARN         clock +7s
+  172.16.40.200  yes      yes       56.5       +7  WARN         clock +7s
+  172.16.40.201  yes      yes       56.2       +7  WARN         clock +7s
+  172.16.40.202  yes      yes       24.8       +8  WARN         clock +8s
+  172.16.40.203  yes      yes       24.9       +7  WARN         clock +7s
+  172.16.40.204  yes      yes       56.6       +8  WARN         clock +8s
+  172.16.40.205  yes      yes       57.1       +7  WARN         clock +7s
+  172.16.40.206  yes      yes       56.9       +8  WARN         clock +8s
+  172.16.40.207  yes      yes       57.6       +7  WARN         clock +7s
+  172.16.40.208  yes      yes       54.7       +8  WARN         clock +8s
+  172.16.40.209  yes      yes       57.4       +8  WARN         clock +8s
+  172.16.40.210  yes      yes       24.6       +8  WARN         clock +8s
+  172.16.40.211  yes      yes       57.4       +8  WARN         clock +8s
+  172.16.40.212  yes      yes       57.7       +8  WARN         clock +8s
+  172.16.40.213  yes      yes       22.9       +8  WARN         clock +8s
+  172.16.40.214  yes      yes       29.7       +8  WARN         clock +8s
+  172.16.40.215  yes      yes       61.3       +9  WARN         clock +9s
+  172.16.40.216  yes      yes        0.0       +8  FAIL         /tmp 0.0MB
+  172.16.40.217  yes      yes       57.8       +8  WARN         clock +8s
+  172.16.40.218  yes      yes       27.3       +8  WARN         clock +8s
+  172.16.40.219  -        -            -        -  UNREACHABLE  ssh: connect to host 172.16.
+  172.16.40.220  yes      yes       58.4       +8  WARN         clock +8s
+  172.16.40.221  yes      yes       29.6       +9  WARN         clock +9s
+  172.16.40.222  yes      yes       57.8       +8  WARN         clock +8s
+  172.16.40.223  yes      yes       58.3       +8  WARN         clock +8s
+  172.16.40.224  yes      yes       57.1       +8  WARN         clock +8s
+  172.16.40.225  yes      yes       56.8       +8  WARN         clock +8s
+  172.16.40.226  yes      yes       57.6       +9  WARN         clock +9s
+  172.16.40.227  yes      yes       29.7       +9  WARN         clock +9s
+  172.16.40.228  yes      yes       24.5       +8  WARN         clock +8s
+  172.16.40.229  yes      yes       57.2       +8  WARN         clock +8s
+  172.16.40.230  yes      yes       58.7       +9  WARN         clock +9s
+  172.16.40.231  yes      yes       57.9       +8  WARN         clock +8s
+  172.16.40.232  yes      yes       57.9       +8  WARN         clock +8s
+  172.16.40.233  yes      yes       58.5       +9  WARN         clock +9s
+  172.16.40.234  yes      yes       54.6       +9  WARN         clock +9s
+  172.16.40.235  yes      yes        7.9       +9  WARN         clock +9s
+  172.16.40.236  yes      yes       25.9       +9  WARN         clock +9s
+  172.16.40.237  yes      yes       27.0       +9  WARN         clock +9s
+  172.16.40.238  yes      yes       56.0       +9  WARN         clock +9s
+  172.16.40.239  yes      yes       26.3       +3  OK
+  172.16.40.240  yes      yes       29.7       +9  WARN         clock +9s
+  172.16.40.241  yes      yes       55.9       +9  WARN         clock +9s
+  172.16.40.242  yes      yes       58.0       +9  WARN         clock +9s
+  172.16.40.243  yes      yes       57.1       +9  WARN         clock +9s
+  172.16.40.244  yes      yes       57.7      +10  WARN         clock +10s
+  172.16.40.245  yes      yes       26.3       +9  WARN         clock +9s
+  172.16.40.246  yes      yes       56.0       +9  WARN         clock +9s
+  172.16.40.247  yes      yes       59.0       +9  WARN         clock +9s
+  172.16.40.248  yes      yes       57.9      +10  WARN         clock +10s
+  172.16.40.249  yes      yes       58.2       +9  WARN         clock +9s
+  172.16.40.250  yes      yes       29.3      +10  WARN         clock +10s
+  172.16.40.251  yes      yes       57.5      +10  WARN         clock +10s
+  172.16.40.252  yes      yes       25.2       +9  WARN         clock +9s
+  172.16.40.253  yes      yes       56.4       +9  WARN         clock +9s
+  172.16.40.254  yes      yes       24.0      +10  WARN         clock +10s
+  172.16.41.1    yes      yes       58.8      +10  WARN         clock +10s
+  172.16.41.2    yes      yes       57.6      +10  WARN         clock +10s
+  172.16.41.3    yes      yes       58.2      +10  WARN         clock +10s
+  172.16.41.4    yes      yes       59.0      +10  WARN         clock +10s
+  172.16.41.5    yes      yes       23.6      +10  WARN         clock +10s
+  172.16.41.6    yes      yes       59.0      +10  WARN         clock +10s
+  172.16.41.7    yes      yes       57.9      +10  WARN         clock +10s
+  172.16.41.8    yes      yes       57.9      +10  WARN         clock +10s
+  172.16.41.9    yes      yes       54.5      +10  WARN         clock +10s
+  172.16.41.10   yes      yes       56.8      +10  WARN         clock +10s
+  172.16.41.11   yes      yes       58.5      +10  WARN         clock +10s
+  172.16.41.12   yes      yes       23.9      +10  WARN         clock +10s
+  172.16.41.13   yes      yes       23.9      +10  WARN         clock +10s
+  172.16.41.14   yes      yes       24.9      +10  WARN         clock +10s
+  172.16.41.15   yes      yes       50.5      +10  WARN         clock +10s
+  172.16.41.16   yes      yes       57.0      +11  WARN         clock +11s
+  172.16.41.17   yes      yes       23.3      +10  WARN         clock +10s
+  172.16.41.18   yes      yes       24.7      +10  WARN         clock +10s
+  172.16.41.19   yes      yes       59.0      +10  WARN         clock +10s
+  172.16.41.20   yes      yes       25.9      +10  WARN         clock +10s
+  172.16.41.21   yes      yes       58.7      +10  WARN         clock +10s
+  172.16.41.22   yes      yes       58.5    -3976  WARN         clock -3976s
+  172.16.41.23   yes      yes       24.1      +10  WARN         clock +10s
+  172.16.41.24   yes      yes       57.0      +11  WARN         clock +11s
+  172.16.41.25   yes      yes       55.2      +11  WARN         clock +11s
+  172.16.41.26   yes      yes       59.0      +11  WARN         clock +11s
+  172.16.41.27   yes      yes       56.1      +11  WARN         clock +11s
+  172.16.41.28   yes      yes       24.4      +11  WARN         clock +11s
+  172.16.41.29   yes      yes       57.5      +11  WARN         clock +11s
+  172.16.41.30   yes      yes       55.4      +11  WARN         clock +11s
+  172.16.41.31   yes      yes       23.5      +11  WARN         clock +11s
+  172.16.41.32   yes      yes       22.7      +11  WARN         clock +11s
+  172.16.41.33   yes      yes       56.2      +11  WARN         clock +11s
+  172.16.41.34   yes      yes       56.1      +11  WARN         clock +11s
+  172.16.41.35   yes      yes       56.0      +11  WARN         clock +11s
+  172.16.41.36   yes      yes       23.8      +11  WARN         clock +11s
+  172.16.41.37   yes      yes       57.8      +11  WARN         clock +11s
+  172.16.41.38   yes      yes       58.0      +11  WARN         clock +11s
+  172.16.41.39   yes      yes       25.1      +11  WARN         clock +11s
+  172.16.41.40   yes      yes       55.7      +11  WARN         clock +11s
+  172.16.41.41   yes      yes       56.7      +11  WARN         clock +11s
+  172.16.41.42   yes      yes       56.8      +11  WARN         clock +11s
+  172.16.41.43   yes      yes       56.7      +11  WARN         clock +11s
+  172.16.41.44   yes      yes       59.0      +11  WARN         clock +11s
+  172.16.41.45   yes      yes       24.2      +11  WARN         clock +11s
+  172.16.41.46   yes      yes       24.8      +11  WARN         clock +11s
+  172.16.41.47   yes      yes       56.9      +11  WARN         clock +11s
+  172.16.41.48   yes      yes       56.4      +11  WARN         clock +11s
+  172.16.41.49   yes      yes       58.7      +12  WARN         clock +12s
+  172.16.41.50   yes      yes       58.4      +11  WARN         clock +11s
+  172.16.41.51   yes      yes       24.3      +11  WARN         clock +11s
+  172.16.41.52   yes      yes       59.0      +11  WARN         clock +11s
+  172.16.41.53   yes      yes       56.4      +11  WARN         clock +11s
+  172.16.41.54   yes      yes       51.3      +11  WARN         clock +11s
+  172.16.41.55   yes      yes       59.0      +12  WARN         clock +12s
+  172.16.41.56   yes      yes       57.1      +12  WARN         clock +12s
+  172.16.41.57   yes      yes       57.2      +12  WARN         clock +12s
+  172.16.41.58   yes      yes        0.0      +11  FAIL         /tmp 0.0MB
+  172.16.41.59   yes      yes       56.0      +11  WARN         clock +11s
+  172.16.41.60   yes      yes       55.6      +12  WARN         clock +12s
+  172.16.41.61   yes      yes       56.4      +12  WARN         clock +12s
+  172.16.41.62   yes      yes       27.3      +11  WARN         clock +11s
+  172.16.41.63   yes      yes       56.0      +11  WARN         clock +11s
+  172.16.41.64   yes      yes       42.8      +12  WARN         clock +12s
+  172.16.41.65   yes      yes       59.0      +12  WARN         clock +12s
+  172.16.41.66   yes      yes       56.0      +12  WARN         clock +12s
+  172.16.41.67   -        -            -        -  UNREACHABLE  ssh: connect to host 172.16.
+  172.16.41.68   yes      yes       57.3      +12  WARN         clock +12s
+  172.16.41.69   yes      yes       26.8      +12  WARN         clock +12s
+  172.16.41.70   yes      yes       59.1      +12  WARN         clock +12s
+  172.16.41.71   yes      yes       59.0      +13  WARN         clock +13s
+  172.16.41.72   yes      yes       56.4      +12  WARN         clock +12s
+  172.16.41.73   yes      yes       58.4      +12  WARN         clock +12s
+  172.16.41.74   yes      yes       27.3      -52  WARN         clock -52s
+  172.16.41.75   yes      yes       54.9      +12  WARN         clock +12s
+  172.16.41.76   yes      yes       27.0      +12  WARN         clock +12s
+  172.16.41.77   yes      yes       58.0      +12  WARN         clock +12s
+  172.16.41.78   yes      yes       26.2      +12  WARN         clock +12s
+  172.16.41.79   yes      yes       23.8      +13  WARN         clock +13s
+  172.16.41.80   yes      yes       57.0      +12  WARN         clock +12s
+  172.16.41.81   yes      yes       58.9      +12  WARN         clock +12s
+  172.16.41.83   yes      yes       26.9      +12  WARN         clock +12s
+  172.16.41.84   yes      yes       57.5      +12  WARN         clock +12s
+  172.16.41.85   yes      yes       57.3      +13  WARN         clock +13s
+  172.16.41.86   yes      yes       55.4      +12  WARN         clock +12s
+  172.16.41.87   yes      yes       22.5      +12  WARN         clock +12s
+  172.16.41.89   yes      yes       24.8      +12  WARN         clock +12s
+  172.16.41.90   yes      yes       56.6      +13  WARN         clock +13s
+  172.16.41.91   yes      yes       55.7      +12  WARN         clock +12s
+  172.16.41.92   yes      yes       58.4      +12  WARN         clock +12s
+  172.16.41.93   yes      yes       59.1      +12  WARN         clock +12s
+  172.16.41.94   yes      yes       57.6      +13  WARN         clock +13s
+  172.16.41.95   yes      yes       39.5      +13  WARN         clock +13s
+  172.16.41.96   yes      yes       25.3      +13  WARN         clock +13s
+  172.16.41.97   yes      yes       55.9      +13  WARN         clock +13s
+  172.16.41.98   yes      yes       57.2      +13  WARN         clock +13s
+  172.16.41.99   yes      yes       58.2      +13  WARN         clock +13s
+  172.16.41.100  yes      yes       58.4      +13  WARN         clock +13s
+  172.16.41.101  yes      yes       56.7      +17  WARN         clock +17s
+  172.16.41.102  yes      yes       56.4      +13  WARN         clock +13s
+  172.16.41.103  yes      yes       58.7      +13  WARN         clock +13s
+  172.16.41.105  yes      yes       58.2      +13  WARN         clock +13s
+  172.16.41.107  yes      yes       26.1      +13  WARN         clock +13s
+  172.16.41.108  yes      yes       24.4      +13  WARN         clock +13s
+  172.16.41.109  yes      yes       53.9      +13  WARN         clock +13s
+  172.16.41.110  yes      yes       57.5      +13  WARN         clock +13s
+  172.16.41.111  yes      yes       55.5      +13  WARN         clock +13s
+  172.16.41.112  yes      yes       54.4      +13  WARN         clock +13s
+  172.16.41.113  yes      yes       56.3      +13  WARN         clock +13s
+  172.16.41.114  yes      yes       23.7      +13  WARN         clock +13s
+  172.16.41.115  yes      yes       56.8      +13  WARN         clock +13s
+  172.16.41.116  yes      yes       56.5      +13  WARN         clock +13s
+  172.16.41.117  yes      yes       56.0      +13  WARN         clock +13s
+  172.16.41.118  yes      yes       26.5      +13  WARN         clock +13s
+  172.16.41.119  yes      yes       55.9      +13  WARN         clock +13s
+  172.16.41.120  yes      yes       24.1      +13  WARN         clock +13s
+  172.16.41.121  yes      yes       50.8      +13  WARN         clock +13s
+  172.16.41.122  yes      yes       24.4      +13  WARN         clock +13s
+  172.16.41.123  yes      yes       58.6      +13  WARN         clock +13s
+  172.16.41.124  yes      yes       26.6      +13  WARN         clock +13s
+  172.16.41.125  yes      yes       27.2      +13  WARN         clock +13s
+  172.16.41.126  yes      yes       50.9      +14  WARN         clock +14s
+  172.16.41.127  yes      yes       57.2      +13  WARN         clock +13s
+  172.16.41.128  yes      yes       26.3      +13  WARN         clock +13s
+  172.16.41.129  yes      yes       26.6      +14  WARN         clock +14s
+  172.16.41.130  yes      yes       57.9      +14  WARN         clock +14s
+  172.16.41.131  yes      yes       26.9      +14  WARN         clock +14s
+  172.16.41.132  yes      yes       58.0      +15  WARN         clock +15s
+  172.16.41.133  yes      yes       59.0      +14  WARN         clock +14s
+  172.16.41.134  yes      yes       56.7      +14  WARN         clock +14s
+  172.16.41.135  yes      yes       57.1      +14  WARN         clock +14s
+  172.16.41.136  yes      yes       59.0      +14  WARN         clock +14s
+  172.16.41.137  yes      yes       59.0      +14  WARN         clock +14s
+  172.16.41.138  yes      yes       56.7      +14  WARN         clock +14s
+  172.16.41.139  yes      yes       54.7      +14  WARN         clock +14s
+  172.16.41.140  yes      yes       55.9      +15  WARN         clock +15s
+  172.16.41.141  yes      yes       58.0      +15  WARN         clock +15s
+  172.16.41.143  yes      yes       25.8      +14  WARN         clock +14s
+  172.16.41.144  yes      yes       58.6      +14  WARN         clock +14s
+  172.16.41.145  yes      yes       27.2      +14  WARN         clock +14s
+  172.16.41.146  yes      yes       56.3      +14  WARN         clock +14s
+  172.16.41.147  yes      yes       25.6      +14  WARN         clock +14s
+  172.16.41.148  yes      yes        0.0      +14  FAIL         /tmp 0.0MB
+  172.16.41.149  yes      yes       57.2      +14  WARN         clock +14s
+  172.16.41.150  yes      yes       26.9      +14  WARN         clock +14s
+  172.16.41.151  yes      yes       58.9      +14  WARN         clock +14s
+  172.16.41.154  yes      yes       26.9      +14  WARN         clock +14s
+  172.16.41.155  yes      yes       25.5      +14  WARN         clock +14s
+  172.16.41.157  yes      yes       57.2      +15  WARN         clock +15s
+  172.16.41.158  yes      yes       58.9      +14  WARN         clock +14s
+  172.16.41.159  yes      yes       54.8      +14  WARN         clock +14s
+  172.16.41.160  yes      yes       58.0      +14  WARN         clock +14s
+  172.16.41.162  yes      yes       56.6      +15  WARN         clock +15s
+  172.16.41.163  yes      yes       56.4      +14  WARN         clock +14s
+  172.16.41.164  yes      yes       58.0      +14  WARN         clock +14s
+  172.16.41.165  yes      yes       53.5      +14  WARN         clock +14s
+  172.16.41.166  yes      yes       58.7      +15  WARN         clock +15s
+  172.16.41.167  yes      yes       56.0      +15  WARN         clock +15s
+  172.16.41.168  yes      yes       56.9      +15  WARN         clock +15s
+  172.16.41.169  yes      yes       56.8      +15  WARN         clock +15s
+  172.16.41.170  yes      yes       58.1      +15  WARN         clock +15s
+  172.16.41.171  yes      yes       59.0      +15  WARN         clock +15s
+  172.16.41.172  yes      yes       58.4      +15  WARN         clock +15s
+  172.16.41.173  yes      yes       58.8      +15  WARN         clock +15s
+  172.16.41.174  yes      yes       55.6      +15  WARN         clock +15s
+  172.16.41.175  yes      yes       54.9      +15  WARN         clock +15s
+  172.16.41.176  yes      yes       57.6      +15  WARN         clock +15s
+  172.16.41.177  yes      yes       58.0      +15  WARN         clock +15s
+  172.16.41.178  yes      yes       59.0      +15  WARN         clock +15s
+  172.16.41.179  yes      yes       57.2      +15  WARN         clock +15s
+  172.16.41.181  yes      yes       56.6      +15  WARN         clock +15s
+  172.16.41.182  yes      yes       25.7      +15  WARN         clock +15s
+  172.16.41.184  yes      yes       58.7      +15  WARN         clock +15s
+  172.16.41.185  yes      yes       58.8      +15  WARN         clock +15s
+  172.16.41.186  yes      yes       25.7      +15  WARN         clock +15s
+  172.16.41.187  yes      yes       24.7      +15  WARN         clock +15s
+  172.16.41.188  yes      yes       27.0      +15  WARN         clock +15s
+  172.16.41.189  yes      yes       57.2      +16  WARN         clock +16s
+  172.16.41.190  yes      yes       58.6      +15  WARN         clock +15s
+  172.16.41.191  yes      yes       54.8      +15  WARN         clock +15s
+  172.16.41.192  yes      yes       24.8      +15  WARN         clock +15s
+  172.16.41.193  yes      yes       26.9      +15  WARN         clock +15s
+  172.16.41.194  yes      yes       58.2      +15  WARN         clock +15s
+  172.16.41.195  yes      yes       24.8      +15  WARN         clock +15s
+  172.16.41.197  yes      yes       56.3      +15  WARN         clock +15s
+  172.16.41.198  yes      yes       57.9      +15  WARN         clock +15s
+  172.16.41.199  yes      yes       57.2      +15  WARN         clock +15s
+  172.16.41.200  yes      yes       56.2      +15  WARN         clock +15s
+  172.16.41.201  yes      yes       58.4      +15  WARN         clock +15s
+  172.16.41.202  yes      yes       25.7      +16  WARN         clock +16s
+  172.16.41.203  yes      yes       26.4      +16  WARN         clock +16s
+  172.16.41.204  yes      yes       20.2      +17  WARN         clock +17s
+  172.16.41.205  yes      yes       23.9      +16  WARN         clock +16s
+  172.16.41.206  yes      yes       55.9      +16  WARN         clock +16s
+  172.16.41.207  yes      yes       50.6      +16  WARN         clock +16s
+  172.16.41.208  yes      yes       56.2      +16  WARN         clock +16s
+  172.16.41.209  yes      yes       57.9      +16  WARN         clock +16s
+  172.16.41.210  yes      yes       57.3      +16  WARN         clock +16s
+  172.16.41.211  yes      yes       23.6      +16  WARN         clock +16s
+  172.16.41.212  yes      yes       57.1      +16  WARN         clock +16s
+  172.16.41.213  yes      yes       27.3      +16  WARN         clock +16s
+  172.16.41.214  yes      yes       55.4      +17  WARN         clock +17s
+  172.16.41.215  yes      yes       56.5      +16  WARN         clock +16s
+  172.16.41.216  yes      yes       26.3      +16  WARN         clock +16s
+  172.16.41.217  yes      yes       24.5      +16  WARN         clock +16s
+  172.16.41.218  yes      yes       57.1      +16  WARN         clock +16s
+  172.16.41.219  yes      yes       26.9      +16  WARN         clock +16s
+  172.16.41.220  yes      yes       27.3      +16  WARN         clock +16s
+  172.16.41.221  yes      yes       24.0      +16  WARN         clock +16s
+  172.16.41.222  yes      yes       56.3      +16  WARN         clock +16s
+  172.16.41.223  yes      yes       25.4      +16  WARN         clock +16s
+  172.16.41.224  yes      yes       25.0      +16  WARN         clock +16s
+  172.16.41.225  yes      yes       59.0      +16  WARN         clock +16s
+  172.16.41.226  yes      yes       56.9      +16  WARN         clock +16s
+  172.16.41.227  yes      yes       26.6      +16  WARN         clock +16s
+  172.16.41.228  yes      yes       56.3      +16  WARN         clock +16s
+  172.16.41.229  yes      yes       57.0      +17  WARN         clock +17s
+  172.16.41.230  yes      yes       24.4      +17  WARN         clock +17s
+  172.16.41.231  yes      yes       56.5      +16  WARN         clock +16s
+  172.16.41.232  yes      yes        0.0      +16  FAIL         /tmp 0.0MB
+  172.16.41.233  yes      yes       56.9      +17  WARN         clock +17s
+  172.16.41.234  yes      yes       56.8      +16  WARN         clock +16s
+  172.16.41.235  yes      yes       59.0      +16  WARN         clock +16s
+  172.16.41.236  yes      yes        0.0      +17  FAIL         /tmp 0.0MB
+  172.16.41.237  yes      yes       59.0      +17  WARN         clock +17s
+  172.16.41.238  yes      yes       57.8      +17  WARN         clock +17s
+  172.16.41.239  yes      yes       53.8      +17  WARN         clock +17s
+  172.16.41.240  yes      yes       58.2      +17  WARN         clock +17s
+  172.16.41.241  yes      yes       25.9      +17  WARN         clock +17s
+  172.16.41.242  yes      yes       56.9      +17  WARN         clock +17s
+  172.16.41.243  yes      yes       24.6      +17  WARN         clock +17s
+  172.16.41.244  yes      yes       56.5      +17  WARN         clock +17s
+  172.16.41.245  yes      yes       55.6      +17  WARN         clock +17s
+  172.16.41.246  yes      yes       26.1      +17  WARN         clock +17s
+  172.16.41.249  yes      yes       53.8      +17  WARN         clock +17s
+  172.16.41.250  yes      yes       24.0      +17  WARN         clock +17s
+  172.16.41.251  yes      yes       25.2      +17  WARN         clock +17s
+  172.16.41.252  yes      yes       25.6      +17  WARN         clock +17s
+  172.16.41.254  yes      yes       57.5      +17  WARN         clock +17s
+  172.16.42.1    yes      yes       57.0      +17  WARN         clock +17s
+  172.16.42.2    yes      yes       56.8      +17  WARN         clock +17s
+  172.16.42.4    yes      yes       56.7      +17  WARN         clock +17s
+  172.16.42.5    yes      yes       55.0      +17  WARN         clock +17s
+  172.16.42.6    yes      yes       55.5      +17  WARN         clock +17s
+  172.16.42.9    yes      yes       26.9      +17  WARN         clock +17s
+  172.16.42.14   yes      yes       54.2      +17  WARN         clock +17s
+  172.16.42.15   yes      yes       55.9      +17  WARN         clock +17s
+  172.16.42.16   yes      yes       58.0      +17  WARN         clock +17s
+  172.16.42.17   yes      yes       53.0      +17  WARN         clock +17s
+  172.16.42.20   yes      yes       56.5      +17  WARN         clock +17s
+  172.16.42.23   yes      yes       58.5      +17  WARN         clock +17s
+  172.16.42.24   yes      yes       55.2      +18  WARN         clock +18s
+  172.16.42.25   yes      yes       57.6      +17  WARN         clock +17s
+  172.16.42.28   yes      yes       57.9      +18  WARN         clock +18s
+  172.16.42.29   yes      yes       56.8      +17  WARN         clock +17s
+  172.16.42.30   yes      yes       25.6      +17  WARN         clock +17s
+  172.16.42.32   yes      yes       56.5      +17  WARN         clock +17s
+  172.16.42.33   yes      yes       57.7      +17  WARN         clock +17s
+  172.16.42.35   yes      yes       24.0      +18  WARN         clock +18s
+  172.16.42.36   yes      yes       57.4      +17  WARN         clock +17s
+  172.16.42.43   yes      yes       21.4      +17  WARN         clock +17s
+  172.16.42.44   yes      yes       25.1      +18  WARN         clock +18s
+  172.16.42.45   yes      yes       55.7      +18  WARN         clock +18s
+  172.16.42.46   yes      yes       58.3      +18  WARN         clock +18s
+  172.16.42.52   yes      yes       24.4      +18  WARN         clock +18s
+  172.16.42.53   yes      yes       25.0      +18  WARN         clock +18s
+  172.16.42.55   yes      yes       57.3      +18  WARN         clock +18s
+  172.16.42.56   yes      yes       57.0      +18  WARN         clock +18s
+  172.16.42.59   yes      yes       26.9      +18  WARN         clock +18s
+  172.16.42.60   yes      yes       57.0      +18  WARN         clock +18s
+  172.16.42.61   yes      yes       57.7      +18  WARN         clock +18s
+  172.16.42.62   yes      yes       55.0      +18  WARN         clock +18s
+  172.16.42.73   yes      yes       55.5      +18  WARN         clock +18s
+  172.16.42.74   yes      yes       57.0      +18  WARN         clock +18s
+  172.16.42.75   yes      yes       27.1      +18  WARN         clock +18s
+  172.16.42.80   yes      yes       58.0      +18  WARN         clock +18s
+  172.16.42.81   yes      yes       27.4      +18  WARN         clock +18s
+  172.16.42.88   yes      yes       57.7      +18  WARN         clock +18s
+  172.16.42.97   yes      yes       55.7      +18  WARN         clock +18s
+  172.16.42.98   yes      yes       57.3      +18  WARN         clock +18s
+  172.16.42.101  yes      yes       24.0      +18  WARN         clock +18s
+  172.16.42.102  yes      yes       58.8      +18  WARN         clock +18s
+  172.16.42.103  yes      yes       56.2      +18  WARN         clock +18s
+  172.16.42.104  yes      yes       57.2      +18  WARN         clock +18s
+  172.16.42.108  yes      yes       58.7      +18  WARN         clock +18s
+  172.16.42.109  -        -            -        -  UNREACHABLE  ssh: connect to host 172.16.
+  172.16.42.110  yes      yes       57.9      +18  WARN         clock +18s
+  172.16.42.116  yes      yes       58.8      +18  WARN         clock +18s
+  172.16.42.117  yes      yes       57.2      +18  WARN         clock +18s
+  172.16.42.118  yes      yes       58.1      +18  WARN         clock +18s
+  172.16.42.125  yes      yes       56.7      +18  WARN         clock +18s
+  172.16.42.131  yes      yes       57.1      +18  WARN         clock +18s
+  172.16.42.132  yes      yes       54.8      +18  WARN         clock +18s
+  172.16.42.133  yes      yes       58.0      +19  WARN         clock +19s
+  172.16.42.134  yes      yes       58.6      +18  WARN         clock +18s
+  172.16.42.141  yes      yes       52.7      +19  WARN         clock +19s
+  172.16.42.143  yes      yes       57.3      +19  WARN         clock +19s
+  172.16.42.144  yes      yes       55.4      +18  WARN         clock +18s
+  172.16.42.145  yes      yes       56.3      +19  WARN         clock +19s
+  172.16.42.154  yes      yes       55.6      +18  WARN         clock +18s
+  172.16.42.155  yes      yes       56.9      +18  WARN         clock +18s
+  172.16.42.157  yes      yes       24.9      +19  WARN         clock +19s
+  172.16.42.160  yes      yes       27.0      +19  WARN         clock +19s
+  172.16.42.166  yes      yes       25.2      +19  WARN         clock +19s
+  172.16.42.172  yes      yes       56.5      +19  WARN         clock +19s
+  172.16.42.173  yes      yes       58.2      +19  WARN         clock +19s
+  172.16.42.174  yes      yes       24.6      +19  WARN         clock +19s
+  172.16.42.183  yes      yes       26.6      +19  WARN         clock +19s
+  172.16.42.185  yes      yes       59.0      +19  WARN         clock +19s
+  172.16.42.186  yes      yes       24.0      +19  WARN         clock +19s
+  172.16.42.193  yes      yes       23.9      +19  WARN         clock +19s
+  172.16.42.194  yes      yes       23.4      +19  WARN         clock +19s
+  172.16.42.195  yes      yes       24.9      +19  WARN         clock +19s
+  172.16.42.196  yes      yes       59.2      +19  WARN         clock +19s
+  172.16.42.197  yes      yes       24.7      +19  WARN         clock +19s
+  172.16.42.198  yes      yes       26.0      +19  WARN         clock +19s
+  172.16.42.199  yes      yes       24.9      +19  WARN         clock +19s
+  172.16.42.200  yes      yes       58.1      +19  WARN         clock +19s
+  172.16.42.201  yes      yes       23.7      +19  WARN         clock +19s
+  172.16.42.202  yes      yes       54.4      +19  WARN         clock +19s
+  172.16.42.204  yes      yes       23.4      +19  WARN         clock +19s
+  172.16.42.205  yes      yes       57.3      +19  WARN         clock +19s
+  172.16.42.213  yes      yes       58.5      +19  WARN         clock +19s
+  172.16.42.220  yes      yes       58.2      +19  WARN         clock +19s
+  172.16.42.224  yes      yes       57.8      +19  WARN         clock +19s
+  172.16.42.229  yes      yes       56.5      +19  WARN         clock +19s
+  172.16.42.230  yes      yes       56.8      +19  WARN         clock +19s
+  172.16.42.235  yes      yes       56.1      +19  WARN         clock +19s
+  172.16.42.236  yes      yes       24.8      +19  WARN         clock +19s
+  172.16.42.237  yes      yes       55.2      +19  WARN         clock +19s
+  172.16.42.238  yes      yes       25.1      +19  WARN         clock +19s
+  172.16.42.239  yes      yes       55.5      +19  WARN         clock +19s
+  172.16.42.241  yes      yes       56.3      +19  WARN         clock +19s
+  172.16.42.242  yes      yes       57.1      +19  WARN         clock +19s
+  172.16.42.244  yes      yes       55.3      +19  WARN         clock +19s
+  172.16.42.249  yes      yes       58.6      +19  WARN         clock +19s
+  172.16.42.250  yes      yes       55.3      +19  WARN         clock +19s
+  172.16.42.251  yes      yes       57.0      +19  WARN         clock +19s
+  172.16.42.252  yes      yes       56.7      +19  WARN         clock +19s
+  172.16.42.253  yes      yes       55.2      +20  WARN         clock +20s
+
+  581/594 bridges ready
+  445 bridge(s) more than 5s off this server's clock - merged intervals will be distorted
+
+---- START -------------------------------------------------------------------
+  BRIDGE           PID  STATUS   NOTE
+  -------------  -----  -------  ------------------------------------
+  172.16.40.1    19605  STARTED
+  172.16.40.2    14872  STARTED
+  172.16.40.3     8990  STARTED
+  172.16.40.4     7017  STARTED
+  172.16.40.5    26219  STARTED
+  172.16.40.6    14387  STARTED
+  172.16.40.7    25697  STARTED
+  172.16.40.8     5532  STARTED
+  172.16.40.9    19121  STARTED
+  172.16.40.10   25819  STARTED
+  172.16.40.11   14957  STARTED
+  172.16.40.12   32618  STARTED
+  172.16.40.13    9341  STARTED
+  172.16.40.14    7995  STARTED
+  172.16.40.15    1192  STARTED
+  172.16.40.16   17937  STARTED
+  172.16.40.17   24194  STARTED
+  172.16.40.18   10973  STARTED
+  172.16.40.19   13086  STARTED
+  172.16.40.20    4301  STARTED
+  172.16.40.21    4658  STARTED
+  172.16.40.22   12434  STARTED
+  172.16.40.23   32344  STARTED
+  172.16.40.24   19148  STARTED
+  172.16.40.25   21314  STARTED
+  172.16.40.26       -  FAIL     ssh: connect to host 172.16.40.26 po
+  172.16.40.27   29616  STARTED
+  172.16.40.28   11760  STARTED
+  172.16.40.29    2315  STARTED
+  172.16.40.30    4052  STARTED
+  172.16.40.31    1516  STARTED
+  172.16.40.32   19380  STARTED
+  172.16.40.33   19174  STARTED
+  172.16.40.34   18347  STARTED
+  172.16.40.35    5924  STARTED
+  172.16.40.36   10999  STARTED
+  172.16.40.37   13819  STARTED
+  172.16.40.38    5872  STARTED
+  172.16.40.39   20072  STARTED
+  172.16.40.40   29226  STARTED
+  172.16.40.41    2729  STARTED
+  172.16.40.42   30810  STARTED
+  172.16.40.43   11810  STARTED
+  172.16.40.44    9339  STARTED
+  172.16.40.45    1623  STARTED
+  172.16.40.46   27848  STARTED
+  172.16.40.47   11738  STARTED
+  172.16.40.48   13295  STARTED
+  172.16.40.49   27859  STARTED
+  172.16.40.50   17072  STARTED
+  172.16.40.51    9327  STARTED
+  172.16.40.52   30908  STARTED
+  172.16.40.53   10811  STARTED
+  172.16.40.54    3654  STARTED
+  172.16.40.55    6591  STARTED
+  172.16.40.56   23884  STARTED
+  172.16.40.57   32557  STARTED
+  172.16.40.58    9851  STARTED
+  172.16.40.59   20391  STARTED
+  172.16.40.60   22967  STARTED
+  172.16.40.61   12899  STARTED
+  172.16.40.62   15846  STARTED
+  172.16.40.63   23016  STARTED
+  172.16.40.64   26297  STARTED
+  172.16.40.65    4125  STARTED
+  172.16.40.66   18679  STARTED
+  172.16.40.67   19803  STARTED
+  172.16.40.68   18596  STARTED
+  172.16.40.69   14992  STARTED
+  172.16.40.70     435  STARTED
+  172.16.40.71   10128  STARTED
+  172.16.40.72    3500  STARTED
+  172.16.40.73   29376  STARTED
+  172.16.40.74    4083  STARTED
+  172.16.40.75   25525  STARTED
+  172.16.40.76   18549  STARTED
+  172.16.40.77    6635  STARTED
+  172.16.40.78   25571  STARTED
+  172.16.40.79   32532  STARTED
+  172.16.40.80   19231  STARTED
+  172.16.40.81    5918  STARTED
+  172.16.40.82   23519  STARTED
+  172.16.40.83   21807  STARTED
+  172.16.40.84    7790  STARTED
+  172.16.40.85    1356  STARTED
+  172.16.40.86   19327  STARTED
+  172.16.40.87    5036  STARTED
+  172.16.40.88    6779  STARTED
+  172.16.40.89    5929  STARTED
+  172.16.40.90   27566  STARTED
+  172.16.40.91   19152  STARTED
+  172.16.40.92    6213  STARTED
+  172.16.40.93    6285  STARTED
+  172.16.40.94   20314  STARTED
+  172.16.40.95   20392  STARTED
+  172.16.40.96   15971  STARTED
+  172.16.40.97   20414  STARTED
+  172.16.40.98   26035  STARTED
+  172.16.40.99    8455  STARTED
+  172.16.40.100  26096  STARTED
+  172.16.40.101    963  STARTED
+  172.16.40.102  24000  STARTED
+  172.16.40.103   2825  STARTED
+  172.16.40.104  18620  STARTED
+  172.16.40.105  19955  STARTED
+  172.16.40.106   9171  STARTED
+  172.16.40.107   2552  STARTED
+  172.16.40.108    963  STARTED
+  172.16.40.109  12254  STARTED
+  172.16.40.110  19174  STARTED
+  172.16.40.111  23511  STARTED
+  172.16.40.112  12161  STARTED
+  172.16.40.113  23577  STARTED
+  172.16.40.114  18494  STARTED
+  172.16.40.115  17862  STARTED
+  172.16.40.116  30791  STARTED
+  172.16.40.117  30570  STARTED
+  172.16.40.118    743  STARTED
+  172.16.40.119  18871  STARTED
+  172.16.40.120  15619  STARTED
+  172.16.40.121   1020  STARTED
+  172.16.40.122  31662  STARTED
+  172.16.40.123  28528  STARTED
+  172.16.40.124   8274  STARTED
+  172.16.40.125  16760  STARTED
+  172.16.40.126  30864  STARTED
+  172.16.40.127  29330  STARTED
+  172.16.40.128   3153  STARTED
+  172.16.40.129   6991  STARTED
+  172.16.40.130  17860  STARTED
+  172.16.40.131  22131  STARTED
+  172.16.40.132  12108  STARTED
+  172.16.40.133  12788  STARTED
+  172.16.40.134  20196  STARTED
+  172.16.40.135  22170  STARTED
+  172.16.40.136   7365  STARTED
+  172.16.40.137  20814  STARTED
+  172.16.40.138    960  STARTED
+  172.16.40.139   4012  STARTED
+  172.16.40.140    942  STARTED
+  172.16.40.141  30042  STARTED
+  172.16.40.142  32171  STARTED
+  172.16.40.143  26827  STARTED
+  172.16.40.144   7155  STARTED
+  172.16.40.145  21227  STARTED
+  172.16.40.146  24099  STARTED
+  172.16.40.147  27489  STARTED
+  172.16.40.148   4713  STARTED
+  172.16.40.149   5801  STARTED
+  172.16.40.150   4468  STARTED
+  172.16.40.151  18625  STARTED
+  172.16.40.152  31447  STARTED
+  172.16.40.153   8521  STARTED
+  172.16.40.154  16010  STARTED
+  172.16.40.155   8701  STARTED
+  172.16.40.156  13953  STARTED
+  172.16.40.157   6476  STARTED
+  172.16.40.158   3136  STARTED
+  172.16.40.159   3477  STARTED
+  172.16.40.160  29740  STARTED
+  172.16.40.161  31946  STARTED
+  172.16.40.162   7781  STARTED
+  172.16.40.163  23886  STARTED
+  172.16.40.164  29635  STARTED
+  172.16.40.165  19266  STARTED
+  172.16.40.166  19666  STARTED
+  172.16.40.167  23024  STARTED
+  172.16.40.168  28949  STARTED
+  172.16.40.169    538  STARTED
+  172.16.40.170   4797  STARTED
+  172.16.40.171  21252  STARTED
+  172.16.40.172   8130  STARTED
+  172.16.40.173  11109  STARTED
+  172.16.40.174  26795  STARTED
+  172.16.40.175  24403  STARTED
+  172.16.40.176  13444  STARTED
+  172.16.40.177  20610  STARTED
+  172.16.40.178  11941  STARTED
+  172.16.40.179      -  FAIL     ssh: connect to host 172.16.40.179 p
+  172.16.40.180  28127  STARTED
+  172.16.40.181   1878  STARTED
+  172.16.40.182  16028  STARTED
+  172.16.40.183   8827  STARTED
+  172.16.40.184  23346  STARTED
+  172.16.40.185   3569  STARTED
+  172.16.40.186  15711  STARTED
+  172.16.40.187  16105  STARTED
+  172.16.40.188  31328  STARTED
+  172.16.40.189   7180  STARTED
+  172.16.40.190   4926  STARTED
+  172.16.40.191   1394  STARTED
+  172.16.40.192  14058  STARTED
+  172.16.40.193   1116  STARTED
+  172.16.40.194   2669  STARTED
+  172.16.40.195  22558  STARTED
+  172.16.40.196  15987  STARTED
+  172.16.40.197  22588  STARTED
+  172.16.40.198   9531  STARTED
+  172.16.40.199   4611  STARTED
+  172.16.40.200  11305  STARTED
+  172.16.40.201    689  STARTED
+  172.16.40.202  10351  STARTED
+  172.16.40.203  14440  STARTED
+  172.16.40.204  14964  STARTED
+  172.16.40.205  19959  STARTED
+  172.16.40.206  25872  STARTED
+  172.16.40.207   7496  STARTED
+  172.16.40.208  20673  STARTED
+  172.16.40.209  21187  STARTED
+  172.16.40.210   8038  STARTED
+  172.16.40.211  30490  STARTED
+  172.16.40.212  24834  STARTED
+  172.16.40.213  21641  STARTED
+  172.16.40.214   8991  STARTED
+  172.16.40.215   4641  STARTED
+  172.16.40.216  11248  STARTED
+  172.16.40.217   3456  STARTED
+  172.16.40.218  14047  STARTED
+  172.16.40.219      -  FAIL     ssh: connect to host 172.16.40.219 p
+  172.16.40.220   5504  STARTED
+  172.16.40.221   9564  STARTED
+  172.16.40.222  26597  STARTED
+  172.16.40.223  10081  STARTED
+  172.16.40.224  18074  STARTED
+  172.16.40.225  18989  STARTED
+  172.16.40.226  29099  STARTED
+  172.16.40.227  24522  STARTED
+  172.16.40.228  31597  STARTED
+  172.16.40.229  11389  STARTED
+  172.16.40.230    465  STARTED
+  172.16.40.231  22280  STARTED
+  172.16.40.232  19284  STARTED
+  172.16.40.233  29952  STARTED
+  172.16.40.234  26420  STARTED
+  172.16.40.235   2773  STARTED
+  172.16.40.236   7144  STARTED
+  172.16.40.237  11188  STARTED
+  172.16.40.238  30247  STARTED
+  172.16.40.239   5473  STARTED
+  172.16.40.240  23525  STARTED
+  172.16.40.241   7904  STARTED
+  172.16.40.242  19718  STARTED
+  172.16.40.243  17419  STARTED
+  172.16.40.244  29636  STARTED
+  172.16.40.245  23288  STARTED
+  172.16.40.246  28642  STARTED
+  172.16.40.247  28746  STARTED
+  172.16.40.248  17528  STARTED
+  172.16.40.249  24051  STARTED
+  172.16.40.250  13451  STARTED
+  172.16.40.251   8091  STARTED
+  172.16.40.252  10998  STARTED
+  172.16.40.253   2105  STARTED
+  172.16.40.254  26798  STARTED
+  172.16.41.1     6984  STARTED
+  172.16.41.2    17411  STARTED
+  172.16.41.3    14482  STARTED
+  172.16.41.4    16756  STARTED
+  172.16.41.5    16875  STARTED
+  172.16.41.6    19344  STARTED
+  172.16.41.7     9940  STARTED
+  172.16.41.8    16704  STARTED
+  172.16.41.9    15786  STARTED
+  172.16.41.10    9593  STARTED
+  172.16.41.11   22376  STARTED
+  172.16.41.12   21448  STARTED
+  172.16.41.13   15639  STARTED
+  172.16.41.14   10450  STARTED
+  172.16.41.15   14395  STARTED
+  172.16.41.16    2079  STARTED
+  172.16.41.17    7088  STARTED
+  172.16.41.18   24521  STARTED
+  172.16.41.19    3144  STARTED
+  172.16.41.20    4803  STARTED
+  172.16.41.21   28289  STARTED
+  172.16.41.22   19699  STARTED
+  172.16.41.23   19445  STARTED
+  172.16.41.24   21168  STARTED
+  172.16.41.25   27830  STARTED
+  172.16.41.26   19136  STARTED
+  172.16.41.27   16981  STARTED
+  172.16.41.28   10026  STARTED
+  172.16.41.29     928  STARTED
+  172.16.41.30   15599  STARTED
+  172.16.41.31   31290  STARTED
+  172.16.41.32   16395  STARTED
+  172.16.41.33   30878  STARTED
+  172.16.41.34   13031  STARTED
+  172.16.41.35     578  STARTED
+  172.16.41.36   27887  STARTED
+  172.16.41.37   23804  STARTED
+  172.16.41.38    4804  STARTED
+  172.16.41.39    1631  STARTED
+  172.16.41.40   27838  STARTED
+  172.16.41.41   25291  STARTED
+  172.16.41.42   23782  STARTED
+  172.16.41.43   32426  STARTED
+  172.16.41.44    2145  STARTED
+  172.16.41.45   20282  STARTED
+  172.16.41.46   29437  STARTED
+  172.16.41.47   10276  STARTED
+  172.16.41.48   14814  STARTED
+  172.16.41.49    2246  STARTED
+  172.16.41.50   14036  STARTED
+  172.16.41.51   11774  STARTED
+  172.16.41.52    3204  STARTED
+  172.16.41.53   11057  STARTED
+  172.16.41.54   10236  STARTED
+  172.16.41.55    1097  STARTED
+  172.16.41.56    4261  STARTED
+  172.16.41.57   25571  STARTED
+  172.16.41.58   16037  STARTED
+  172.16.41.59   22684  STARTED
+  172.16.41.60   29942  STARTED
+  172.16.41.61    3924  STARTED
+  172.16.41.62    8607  STARTED
+  172.16.41.63    3877  STARTED
+  172.16.41.64   32244  STARTED
+  172.16.41.65   13185  STARTED
+  172.16.41.66   10212  STARTED
+  172.16.41.67       -  FAIL     ssh: connect to host 172.16.41.67 po
+  172.16.41.68     790  STARTED
+  172.16.41.69   15127  STARTED
+  172.16.41.70   27772  STARTED
+  172.16.41.71   10389  STARTED
+  172.16.41.72   10872  STARTED
+  172.16.41.73   26389  STARTED
+  172.16.41.74   14383  STARTED
+  172.16.41.75   28906  STARTED
+  172.16.41.76   14033  STARTED
+  172.16.41.77   28971  STARTED
+  172.16.41.78    2053  STARTED
+  172.16.41.79   30081  STARTED
+  172.16.41.80   27075  STARTED
+  172.16.41.81    2807  STARTED
+  172.16.41.83   15288  STARTED
+  172.16.41.84   20092  STARTED
+  172.16.41.85   23883  STARTED
+  172.16.41.86   21179  STARTED
+  172.16.41.87    8612  STARTED
+  172.16.41.89   21634  STARTED
+  172.16.41.90    2639  STARTED
+  172.16.41.91   24013  STARTED
+  172.16.41.92   16224  STARTED
+  172.16.41.93   11391  STARTED
+  172.16.41.94   22811  STARTED
+  172.16.41.95       -  FAIL     tcpdump did not start
+  172.16.41.96   21268  STARTED
+  172.16.41.97    3786  STARTED
+  172.16.41.98   24931  STARTED
+  172.16.41.99   29484  STARTED
+  172.16.41.100  29850  STARTED
+  172.16.41.101  26310  STARTED
+  172.16.41.102    735  STARTED
+  172.16.41.103  14418  STARTED
+  172.16.41.105  10704  STARTED
+  172.16.41.107  31222  STARTED
+  172.16.41.108  10795  STARTED
+  172.16.41.109  32593  STARTED
+  172.16.41.110   7343  STARTED
+  172.16.41.111  11002  STARTED
+  172.16.41.112  22916  STARTED
+  172.16.41.113  22826  STARTED
+  172.16.41.114  10241  STARTED
+  172.16.41.115  31861  STARTED
+  172.16.41.116  20848  STARTED
+  172.16.41.117   1462  STARTED
+  172.16.41.118  22394  STARTED
+  172.16.41.119   4724  STARTED
+  172.16.41.120   2625  STARTED
+  172.16.41.121  31670  STARTED
+  172.16.41.122  20799  STARTED
+  172.16.41.123  21293  STARTED
+  172.16.41.124  23364  STARTED
+  172.16.41.125  31129  STARTED
+  172.16.41.126  31015  STARTED
+  172.16.41.127  12227  STARTED
+  172.16.41.128   4329  STARTED
+  172.16.41.129  31645  STARTED
+  172.16.41.130   3517  STARTED
+  172.16.41.131  10134  STARTED
+  172.16.41.132  19965  STARTED
+  172.16.41.133  20498  STARTED
+  172.16.41.134  25196  STARTED
+  172.16.41.135  13942  STARTED
+  172.16.41.136   4272  STARTED
+  172.16.41.137   6597  STARTED
+  172.16.41.138   7326  STARTED
+  172.16.41.139   8616  STARTED
+  172.16.41.140  12494  STARTED
+  172.16.41.141   2349  STARTED
+  172.16.41.143  13568  STARTED
+  172.16.41.144  25769  STARTED
+  172.16.41.145   6806  STARTED
+  172.16.41.146  26900  STARTED
+  172.16.41.147  25206  STARTED
+  172.16.41.148  21663  STARTED
+  172.16.41.149  18588  STARTED
+  172.16.41.150  15539  STARTED
+  172.16.41.151   1860  STARTED
+  172.16.41.154  10042  STARTED
+  172.16.41.155  11431  STARTED
+  172.16.41.157   3656  STARTED
+  172.16.41.158   1614  STARTED
+  172.16.41.159   2180  STARTED
+  172.16.41.160  23145  STARTED
+  172.16.41.162  17211  STARTED
+  172.16.41.163  29972  STARTED
+  172.16.41.164  15968  STARTED
+  172.16.41.165   4819  STARTED
+  172.16.41.166   2841  STARTED
+  172.16.41.167  11298  STARTED
+  172.16.41.168  31915  STARTED
+  172.16.41.169  31630  STARTED
+  172.16.41.170   1966  STARTED
+  172.16.41.171  18533  STARTED
+  172.16.41.172   8825  STARTED
+  172.16.41.173   7803  STARTED
+  172.16.41.174  15488  STARTED
+  172.16.41.175  24353  STARTED
+  172.16.41.176  30411  STARTED
+  172.16.41.177   3385  STARTED
+  172.16.41.178   3664  STARTED
+  172.16.41.179   7264  STARTED
+  172.16.41.181  32208  STARTED
+  172.16.41.182  14949  STARTED
+  172.16.41.184   6052  STARTED
+  172.16.41.185  28601  STARTED
+  172.16.41.186  19221  STARTED
+  172.16.41.187  25676  STARTED
+  172.16.41.188   8791  STARTED
+  172.16.41.189  24958  STARTED
+  172.16.41.190  17796  STARTED
+  172.16.41.191  12502  STARTED
+  172.16.41.192  28073  STARTED
+  172.16.41.193  21856  STARTED
+  172.16.41.194   8787  STARTED
+  172.16.41.195  20538  STARTED
+  172.16.41.197  15503  STARTED
+  172.16.41.198  18322  STARTED
+  172.16.41.199  14249  STARTED
+  172.16.41.200  20539  STARTED
+  172.16.41.201  16796  STARTED
+  172.16.41.202  23736  STARTED
+  172.16.41.203   8388  STARTED
+  172.16.41.204      -  FAIL     tcpdump did not start
+  172.16.41.205  17650  STARTED
+  172.16.41.206  30707  STARTED
+  172.16.41.207  15341  STARTED
+  172.16.41.208  18658  STARTED
+  172.16.41.209  14682  STARTED
+  172.16.41.210  29978  STARTED
+  172.16.41.211  19083  STARTED
+  172.16.41.212  23131  STARTED
+  172.16.41.213   2461  STARTED
+  172.16.41.214  29540  STARTED
+  172.16.41.215  25823  STARTED
+  172.16.41.216  22951  STARTED
+  172.16.41.217  26961  STARTED
+  172.16.41.218   9355  STARTED
+  172.16.41.219   3412  STARTED
+  172.16.41.220  15598  STARTED
+  172.16.41.221   8404  STARTED
+  172.16.41.222  14992  STARTED
+  172.16.41.223   8461  STARTED
+  172.16.41.224  11890  STARTED
+  172.16.41.225   3416  STARTED
+  172.16.41.226  24255  STARTED
+  172.16.41.227   3657  STARTED
+  172.16.41.228   3138  STARTED
+  172.16.41.229  20709  STARTED
+  172.16.41.230  11360  STARTED
+  172.16.41.231  12757  STARTED
+  172.16.41.232  20930  STARTED
+  172.16.41.233   1717  STARTED
+  172.16.41.234  13848  STARTED
+  172.16.41.235  22869  STARTED
+  172.16.41.236  19320  STARTED
+  172.16.41.237   4592  STARTED
+  172.16.41.238  19217  STARTED
+  172.16.41.239  32423  STARTED
+  172.16.41.240  23489  STARTED
+  172.16.41.241   2719  STARTED
+  172.16.41.242  12910  STARTED
+  172.16.41.243  19412  STARTED
+  172.16.41.244  20883  STARTED
+  172.16.41.245  18310  STARTED
+  172.16.41.246  30700  STARTED
+  172.16.41.249  26680  STARTED
+  172.16.41.250  27146  STARTED
+  172.16.41.251  22890  STARTED
+  172.16.41.252  30809  STARTED
+  172.16.41.254  13055  STARTED
+  172.16.42.1    29932  STARTED
+  172.16.42.2    21302  STARTED
+  172.16.42.4    20949  STARTED
+  172.16.42.5    24004  STARTED
+  172.16.42.6     9589  STARTED
+  172.16.42.9     6398  STARTED
+  172.16.42.14    6494  STARTED
+  172.16.42.15    4355  STARTED
+  172.16.42.16   11900  STARTED
+  172.16.42.17   26423  STARTED
+  172.16.42.20   26398  STARTED
+  172.16.42.23   22150  STARTED
+  172.16.42.24   19989  STARTED
+  172.16.42.25   27001  STARTED
+  172.16.42.28   18927  STARTED
+  172.16.42.29   26044  STARTED
+  172.16.42.30   32358  STARTED
+  172.16.42.32    5266  STARTED
+  172.16.42.33    9924  STARTED
+  172.16.42.35   21845  STARTED
+  172.16.42.36    2813  STARTED
+  172.16.42.43   12563  STARTED
+  172.16.42.44    1865  STARTED
+  172.16.42.45   13355  STARTED
+  172.16.42.46   13197  STARTED
+  172.16.42.52   27626  STARTED
+  172.16.42.53   27805  STARTED
+  172.16.42.55    5283  STARTED
+  172.16.42.56    1686  STARTED
+  172.16.42.59    4843  STARTED
+  172.16.42.60   32581  STARTED
+  172.16.42.61    9593  STARTED
+  172.16.42.62   28584  STARTED
+  172.16.42.73     396  STARTED
+  172.16.42.74    4481  STARTED
+  172.16.42.75   20931  STARTED
+  172.16.42.80   23319  STARTED
+  172.16.42.81   11519  STARTED
+  172.16.42.88   15325  STARTED
+  172.16.42.97    8265  STARTED
+  172.16.42.98   31607  STARTED
+  172.16.42.101   5952  STARTED
+  172.16.42.102   3202  STARTED
+  172.16.42.103  13469  STARTED
+  172.16.42.104   7568  STARTED
+  172.16.42.108  30649  STARTED
+  172.16.42.109      -  FAIL     ssh: connect to host 172.16.42.109 p
+  172.16.42.110  24613  STARTED
+  172.16.42.116  28137  STARTED
+  172.16.42.117  14273  STARTED
+  172.16.42.118   8864  STARTED
+  172.16.42.125  26314  STARTED
+  172.16.42.131  10777  STARTED
+  172.16.42.132  31219  STARTED
+  172.16.42.133  23457  STARTED
+  172.16.42.134  10195  STARTED
+  172.16.42.141   2488  STARTED
+  172.16.42.143  20413  STARTED
+  172.16.42.144  15141  STARTED
+  172.16.42.145  13795  STARTED
+  172.16.42.154   9593  STARTED
+  172.16.42.155  12903  STARTED
+  172.16.42.157  20903  STARTED
+  172.16.42.160   3589  STARTED
+  172.16.42.166   6494  STARTED
+  172.16.42.172   6624  STARTED
+  172.16.42.173   8842  STARTED
+  172.16.42.174  27054  STARTED
+  172.16.42.183   8645  STARTED
+  172.16.42.185  30340  STARTED
+  172.16.42.186    460  STARTED
+  172.16.42.193   3447  STARTED
+  172.16.42.194   1440  STARTED
+  172.16.42.195  27971  STARTED
+  172.16.42.196   4550  STARTED
+  172.16.42.197  16320  STARTED
+  172.16.42.198   1484  STARTED
+  172.16.42.199  23673  STARTED
+  172.16.42.200  32518  STARTED
+  172.16.42.201  11672  STARTED
+  172.16.42.202  19493  STARTED
+  172.16.42.204  25169  STARTED
+  172.16.42.205   4921  STARTED
+  172.16.42.213  11680  STARTED
+  172.16.42.220  25684  STARTED
+  172.16.42.224  25663  STARTED
+  172.16.42.229  27350  STARTED
+  172.16.42.230  18654  STARTED
+  172.16.42.235  26019  STARTED
+  172.16.42.236  29726  STARTED
+  172.16.42.237   4937  STARTED
+  172.16.42.238   1162  STARTED
+  172.16.42.239    594  STARTED
+  172.16.42.241  16704  STARTED
+  172.16.42.242   1513  STARTED
+  172.16.42.244  29310  STARTED
+  172.16.42.249  29697  STARTED
+  172.16.42.250   5343  STARTED
+  172.16.42.251  10575  STARTED
+  172.16.42.252  15492  STARTED
+  172.16.42.253  20920  STARTED
+
+  587/594 started, capturing 100s on wlan0, filter: ether proto 0x4d54
+
+---- CAPTURING ---------------------------------------------------------------
+  capture window complete
+
+---- COLLECT -----------------------------------------------------------------
+  BRIDGE         SIZE KB  WIRE KB  STATUS  NOTE
+  -------------  -------  -------  ------  ----------------------------------------
+  172.16.40.26       0.0      0.0  FAIL    ssh: connect to host 172.16.40.26 port 2
+  172.16.40.125     82.1      0.0  FAIL    timeout after 180s
+  172.16.40.147      0.0      0.0  FAIL    no pcap on bridge
+  172.16.40.179      0.0      0.0  FAIL    ssh: connect to host 172.16.40.179 port
+  172.16.40.210    129.4      0.0  FAIL    timeout after 180s
+  172.16.40.219      0.0      0.0  FAIL    ssh: connect to host 172.16.40.219 port
+  172.16.41.67       0.0      0.0  FAIL    no pcap on bridge
+  172.16.41.95       0.0      0.0  FAIL    no pcap on bridge
+  172.16.41.204      0.0      0.0  FAIL    no pcap on bridge
+  172.16.42.109      0.0      0.0  FAIL    ssh: connect to host 172.16.42.109 port
+
+  584/594 collected, 61.9 MB total -> /home/minetec/ZEA-TESTING-WED/20261109   (90% saved by gzip on the wire)
+
+  next: python3 zea_merge.py /home/minetec/ZEA-TESTING-WED/20261109/*_zea-test.pcap --csv /home/minetec/ZEA-TESTING-WED/20261109_test.csv
+minetec@minetec:~/ZEA-TESTING-WED$
